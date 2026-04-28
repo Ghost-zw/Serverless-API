@@ -126,3 +126,5 @@ resource "aws_lambda_permission" "api" {
   function_name = aws_lambda_function.api.function_name
   principal = "apigateway.amazonaws.com"
 }
+
+#terraform review
